@@ -9,21 +9,17 @@
     <h1>Operadores aritméticos</h1>
 
     <script>
+        //Primeiro número
         var n1 = prompt('Digite o primeiro numero.')
+        //Convertendo o primeiro número de string para number
         n1 = parseInt(n1)
+        //Segundo numero
         var n2 = prompt('Digite o segundo numero.')
+        //Convertendo o segundo número de string para number
         n2 = parseInt(n2)
-
-        let result = n1 % n2;
-        let result2 = n1 ^  n2;
-        // let result3 = n1 % n2;
-        // let result4 = n1 % n2;
-        alert('Resto da divisão: '+ result)
-        alert('Resultado da elevação: ' +result2)
-        // alert(result3)
-        // alert(result4)
-
-
+        //Realizando as operações matemáticas
+        alert('o resto da divisão entre ' + n1 + ' por ' + n2 + ' é: ' + (n1 % n2))
+        alert('o numero ' + n1 + ' elevado a ' + n2 + ' é: ' + (n1 ** n2))
     </script>
 
 
